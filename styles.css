@@ -1,0 +1,68 @@
+body{
+    background: #ddd;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta{
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 162px;
+    width: 364px;
+    font-size: 10px;
+}
+.encabezado{
+    background-color: #eb5757;
+    border-radius: 10px 10px 0 0;
+    height: 67px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.numero{
+    display: flex;
+    border: 2px solid #fff;
+    height: 32px;
+    width: 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    left: 8px;
+}
+.titulo{
+    position: relative;
+    left: -15px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.codigo{
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+}
+.icono{
+    position: relative;
+    left: -20px;
+}
+.caja_descripcion{
+    padding: 0 21px;
+}
+.descripcion{
+    font-weight: 400px;
+    font-size: 16px;
+}
+.fecha{
+    display: flex;
+    justify-content: space-between;
+    color: #888888;
+    font-weight: 400px;
+    font-size: 13px;
+    border-top: 1px solid #888888;
+}
